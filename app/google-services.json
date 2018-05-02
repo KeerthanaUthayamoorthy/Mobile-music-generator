@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "622229366603",
+    "firebase_url": "https://mobile-music-generator.firebaseio.com",
+    "project_id": "mobile-music-generator",
+    "storage_bucket": "mobile-music-generator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622229366603:android:89268e07024dad70",
+        "android_client_info": {
+          "package_name": "com.example.acer.project_try"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622229366603-9rpmorjfiuoh2q5oea2dg2b5mh1p25sb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.acer.project_try",
+            "certificate_hash": "7fc311b70672c9ed8f22ce1e6c6e79b5b69dbeec"
+          }
+        },
+        {
+          "client_id": "622229366603-vvmvjv83jusp03ncd9sa3p6uohlta5lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGzyDEWP1dHq1i5bbvpGUXOWQDnoJFeHQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622229366603-vvmvjv83jusp03ncd9sa3p6uohlta5lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

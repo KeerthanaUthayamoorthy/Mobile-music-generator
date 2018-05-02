@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#DB7093"
+    tools:context="com.example.acer.project_try.LoginActivity">
+
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Your Email Id......"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emailField"
+        android:layout_alignRight="@+id/emailField"
+        android:layout_below="@+id/emailField"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/passwordField"
+        android:layout_alignRight="@+id/passwordField"
+        android:layout_below="@+id/passwordField"
+        android:layout_marginTop="87dp"
+        android:hint="Password..."
+        android:text="SIGN IN"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="	#FFD700"
+        android:background="#000000"
+        
+
+
+    />
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/loginBtn"
+        android:layout_toEndOf="@+id/progressBar"
+        android:layout_toRightOf="@+id/progressBar"
+        android:text="SIGN UP"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="	#FFD700"
+        android:background="#000000"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pwd_resetBtn"
+        android:layout_alignStart="@+id/pwd_resetBtn"
+        android:layout_below="@+id/pwd_resetBtn"
+        android:layout_marginTop="26dp" />
+</RelativeLayout>

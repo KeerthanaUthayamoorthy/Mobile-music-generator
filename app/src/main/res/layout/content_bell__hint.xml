@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.acer.project_try.Bell_Hint"
+    tools:showIn="@layout/activity_bell_hint">
+
+    <TextView
+        android:id="@+id/bell_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text=" You have to shake the phone well to play bell."
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bell_hint"
+        android:layout_alignLeft="@+id/playbell_btn"
+        android:layout_alignStart="@+id/playbell_btn"
+        android:layout_marginBottom="47dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:text="HI !!!!!!!!!!!!"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/playbell_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Feel an amazing experience and Enjoy!!!"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Button
+        android:id="@+id/playbell_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp"
+        android:text="Let's Play Bell"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="222dp" />
+</RelativeLayout>

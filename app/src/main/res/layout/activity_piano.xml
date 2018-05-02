@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".Piano">
+
+    <Button
+        android:id="@+id/B7"
+        android:layout_width="301dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginTop="99dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="301dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginBottom="11dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/B8"
+        android:layout_width="301dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginTop="30dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/B6"
+        android:layout_width="301dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginTop="167dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/B5"
+        android:layout_width="301dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginTop="234dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/B4"
+        android:layout_width="301dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginBottom="208dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/B2"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/B3"
+        android:layout_width="301dp"
+        android:layout_height="59dp"
+        android:layout_alignStart="@+id/B2"
+        android:layout_below="@+id/B4"
+        android:layout_marginTop="-204dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginBottom="48dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginBottom="184dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginTop="206dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/B2"
+        android:layout_marginTop="69dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Button" />
+</RelativeLayout>
